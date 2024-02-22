@@ -6,11 +6,11 @@ public class Buku19 {
 
     }
     public Buku19(String judul, String pengarang, int halaman, int stok, int harga) {
-        judul = judul;
-        pengarang = pengarang;
-        halaman = halaman;
-        stok = stok;
-        harga = harga;
+        this.judul = judul;
+        this.pengarang = pengarang;
+        this.halaman = halaman;
+        this.stok = stok;
+        this.harga = harga;
     
       }
 
