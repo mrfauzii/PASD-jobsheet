@@ -1,6 +1,8 @@
 public class BukuMain19 {
     String judul, pengarang;
-    int halaman, stok, harga;
+    int halaman;
+    int stok;
+    int harga;
   
     void tampilInformasi() {
       System.out.println("judul :" + judul);
@@ -25,7 +27,7 @@ public class BukuMain19 {
       harga = hrg;
     }  
     public static void main(String[] args) {
-      BukuMain19 bk1 = new BukuMain19();
+      Buku19 bk1 = new Buku19(null, null, 0, 0, 0);
       bk1.judul = "Today Ends Tommorow Comes";
       bk1.pengarang = "Denanta Pratiwi";
       bk1.halaman = 198;
@@ -37,6 +39,10 @@ public class BukuMain19 {
       bk1.terjual(5);
       bk1.gantiHarga(60000);
       bk1.tampilInformasi();
+
+      Buku19 bk2 = new Buku19("Self Reward", "Maheera Ayesha", 160, 29, 59000);
+      bk2.terjual(0); 
+      bk2.tampilInformasi();
     }
   }
   

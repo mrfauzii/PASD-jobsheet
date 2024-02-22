@@ -1,17 +1,14 @@
 public class Buku19 {
     String judul, pengarang;
     int halaman, stok, harga;
-
-    public Buku19() {
-
-    }
+    
     public Buku19(String judul, String pengarang, int halaman, int stok, int harga) {
         this.judul = judul;
         this.pengarang = pengarang;
         this.halaman = halaman;
         this.stok = stok;
         this.harga = harga;
-    
+
       }
 
   void tampilInformasi() {
